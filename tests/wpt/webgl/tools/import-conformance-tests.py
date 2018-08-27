@@ -14,7 +14,8 @@ PATCHES = [
     ("js-test-pre.patch", "js/js-test-pre.js"),
     ("unit.patch", "conformance/more/unit.js"),
     ("unit2.patch", "conformance/more/unit.js"),
-    ("timeout.patch", None)
+    ("timeout.patch", None),
+    ("set-zero-timeout.patch", "js/webgl-test-utils.js"),
 ]
 
 # Fix for 'UnicodeDecodeError: 'ascii' codec can't decode byte'
